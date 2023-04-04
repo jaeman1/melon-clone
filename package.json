@@ -1,5 +1,5 @@
 {
-  "name": "your_project_name",
+  "name": "crawling_melon",
   "version": "1.0.0",
   "description": "xxxx",
   "scripts": {
@@ -15,6 +15,7 @@
     "@ffmpeg/ffmpeg": "^0.9.7",
     "aws-sdk": "^2.895.0",
     "bcrypt": "^5.1.0",
+    "cheerio": "^1.0.0-rc.12",
     "connect-mongo": "^4.4.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
@@ -27,7 +28,8 @@
     "node-fetch": "^2.6.1",
     "postcss": "^8.4.21",
     "pug": "^3.0.2",
-    "regenerator-runtime": "^0.13.7"
+    "regenerator-runtime": "^0.13.7",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
@@ -45,5 +47,8 @@
     "style-loader": "^2.0.0",
     "webpack": "^5.33.2",
     "webpack-cli": "^4.6.0"
-  }
+  },
+  "main": "crawling_melon.js",
+  "author": "",
+  "license": "ISC"
 }
